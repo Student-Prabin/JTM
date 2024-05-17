@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JTM-Your Joke ATM</title>
+    <link rel = "stylesheet" href ="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="inner-container">
+           <form>
+                <H1>Joke ATM</H1>
+                <div class="display-box">
+                    
+                    <p id = "setup">Hello There</p>
+                    <P id = "punchline"> Hello Here</P>
+                </div>
+                <div class="input">
+                    <div class="category">
+                        <p>Category:
+                            <select class ="options">
+                                 <option value = "any">Random</option>
+                                <option value ="programming">Programming</option>
+                                <option value="dark">Dark</option>
+                                <option value="pun">Pun</option>
+                            </select>
+                        </p>
+                    </div>
+                    <!-- <div class="black-list">
+                        <p>Blacklist:
+                            <input type = "checkbox" onclick="showCheckboxValue(this)" for = "sexist" id = "blacklistFlags=sexist"><label id = "sexist">Sexist</label>
+                            <input type = "checkbox" onclick="showCheckboxValue(this)" for = "racist" id = "blacklistFlags=racist"><label id = "racist">Racist</label>
+                            <input type = "checkbox" onclick="showCheckboxValue(this)" for = "religious" id = "blacklistFlags=religious"><label id = "religious">Religious</label>
+                        </p>
+                    </div> -->
+                    <!-- <div class="user-keywords">
+                        <p>Keywords:
+                            <input type = "text" placeholder = "Comming Soon" id ="writing-box">
+                        </p>
+                    </div> -->
+                    <button type="button">Search</button>
+                </div>
+           </form>
+        </div>
+    </div>
+    <script src ="app.js"></script>
+</body>
+</html>
